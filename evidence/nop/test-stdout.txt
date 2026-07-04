@@ -1,0 +1,63 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.14, pytest-8.4.1, pluggy-1.6.0
+rootdir: /tests
+plugins: json-ctrf-0.3.5
+collected 4 items
+
+../tests/test_outputs.py FEEE                                            [100%]
+
+==================================== ERRORS ====================================
+____________________ ERROR at setup of test_total_requests _____________________
+
+    @pytest.fixture(scope="module")
+    def report():
+        """Load the report; failure here means criterion 1 is unmet."""
+>       assert REPORT.exists(), "no report.json at /app/report.json"
+E       AssertionError: no report.json at /app/report.json
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/app/report.json').exists
+
+/tests/test_outputs.py:12: AssertionError
+______________________ ERROR at setup of test_unique_ips _______________________
+
+    @pytest.fixture(scope="module")
+    def report():
+        """Load the report; failure here means criterion 1 is unmet."""
+>       assert REPORT.exists(), "no report.json at /app/report.json"
+E       AssertionError: no report.json at /app/report.json
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/app/report.json').exists
+
+/tests/test_outputs.py:12: AssertionError
+_______________________ ERROR at setup of test_top_path ________________________
+
+    @pytest.fixture(scope="module")
+    def report():
+        """Load the report; failure here means criterion 1 is unmet."""
+>       assert REPORT.exists(), "no report.json at /app/report.json"
+E       AssertionError: no report.json at /app/report.json
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/app/report.json').exists
+
+/tests/test_outputs.py:12: AssertionError
+=================================== FAILURES ===================================
+__________________________ test_report_is_json_object __________________________
+
+    def test_report_is_json_object():
+        """Criterion 1: /app/report.json exists and contains a single JSON object."""
+>       assert REPORT.exists(), "no report.json at /app/report.json"
+E       AssertionError: no report.json at /app/report.json
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/app/report.json').exists
+
+/tests/test_outputs.py:21: AssertionError
+=========================== short test summary info ============================
+ERROR ../tests/test_outputs.py::test_total_requests - AssertionError: no repo...
+ERROR ../tests/test_outputs.py::test_unique_ips - AssertionError: no report.j...
+ERROR ../tests/test_outputs.py::test_top_path - AssertionError: no report.jso...
+FAILED ../tests/test_outputs.py::test_report_is_json_object - AssertionError:...
+========================= 1 failed, 3 errors in 0.04s ==========================
