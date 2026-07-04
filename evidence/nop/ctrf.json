@@ -11,17 +11,17 @@
             "skipped": 0,
             "pending": 0,
             "other": 0,
-            "start": 1783187333.5785754,
-            "stop": 1783187333.6150498
+            "start": 1783197753.611024,
+            "stop": 1783197753.6467404
         },
         "tests": [
             {
                 "name": "test_outputs.py::test_report_is_json_object",
                 "status": "failed",
                 "raw_status": "call_failed",
-                "duration": 0.0006144589988252847,
-                "start": 1783187333.596642,
-                "stop": 1783187333.608522,
+                "duration": 0.0005869309970876202,
+                "start": 1783197753.6291728,
+                "stop": 1783197753.6403074,
                 "retries": 0,
                 "file_path": "test_outputs.py",
                 "trace": "def test_report_is_json_object():\n        \"\"\"Criterion 1: /app/report.json exists and contains a single JSON object.\"\"\"\n>       assert REPORT.exists(), \"no report.json at /app/report.json\"\nE       AssertionError: no report.json at /app/report.json\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/app/report.json').exists\n\n/tests/test_outputs.py:21: AssertionError",
@@ -30,9 +30,9 @@
             {
                 "name": "test_outputs.py::test_total_requests",
                 "status": "failed",
-                "duration": 0.0004372260009404272,
-                "start": 1783187333.6087277,
-                "stop": 1783187333.6109242,
+                "duration": 0.00039309400017373264,
+                "start": 1783197753.640493,
+                "stop": 1783197753.6428266,
                 "retries": 0,
                 "file_path": "test_outputs.py",
                 "trace": "@pytest.fixture(scope=\"module\")\n    def report():\n        \"\"\"Load the report; failure here means criterion 1 is unmet.\"\"\"\n>       assert REPORT.exists(), \"no report.json at /app/report.json\"\nE       AssertionError: no report.json at /app/report.json\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/app/report.json').exists\n\n/tests/test_outputs.py:12: AssertionError"
@@ -40,9 +40,9 @@
             {
                 "name": "test_outputs.py::test_unique_ips",
                 "status": "failed",
-                "duration": 0.00030420800067076925,
-                "start": 1783187333.6111,
-                "stop": 1783187333.6129296,
+                "duration": 0.00024230100098066032,
+                "start": 1783197753.643016,
+                "stop": 1783197753.6446846,
                 "retries": 0,
                 "file_path": "test_outputs.py",
                 "trace": "@pytest.fixture(scope=\"module\")\n    def report():\n        \"\"\"Load the report; failure here means criterion 1 is unmet.\"\"\"\n>       assert REPORT.exists(), \"no report.json at /app/report.json\"\nE       AssertionError: no report.json at /app/report.json\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/app/report.json').exists\n\n/tests/test_outputs.py:12: AssertionError"
@@ -50,9 +50,9 @@
             {
                 "name": "test_outputs.py::test_top_path",
                 "status": "failed",
-                "duration": 0.00025758099945960566,
-                "start": 1783187333.6131086,
-                "stop": 1783187333.6148849,
+                "duration": 0.0002462819975335151,
+                "start": 1783197753.644836,
+                "stop": 1783197753.646563,
                 "retries": 0,
                 "file_path": "test_outputs.py",
                 "trace": "@pytest.fixture(scope=\"module\")\n    def report():\n        \"\"\"Load the report; failure here means criterion 1 is unmet.\"\"\"\n>       assert REPORT.exists(), \"no report.json at /app/report.json\"\nE       AssertionError: no report.json at /app/report.json\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/app/report.json').exists\n\n/tests/test_outputs.py:12: AssertionError"

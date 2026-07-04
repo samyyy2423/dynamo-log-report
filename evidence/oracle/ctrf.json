@@ -11,43 +11,43 @@
             "skipped": 0,
             "pending": 0,
             "other": 0,
-            "start": 1783187279.69955,
-            "stop": 1783187279.7207534
+            "start": 1783197723.209757,
+            "stop": 1783197723.2351534
         },
         "tests": [
             {
                 "name": "test_outputs.py::test_report_is_json_object",
                 "status": "passed",
-                "duration": 0.0005029060012020636,
-                "start": 1783187279.71737,
-                "stop": 1783187279.7180738,
+                "duration": 0.0006730209970555734,
+                "start": 1783197723.2315373,
+                "stop": 1783197723.2324722,
                 "retries": 0,
                 "file_path": "test_outputs.py"
             },
             {
                 "name": "test_outputs.py::test_total_requests",
                 "status": "passed",
-                "duration": 0.00040412199996353593,
-                "start": 1783187279.718246,
-                "stop": 1783187279.7187696,
+                "duration": 0.0006817979992774781,
+                "start": 1783197723.232673,
+                "stop": 1783197723.2335515,
                 "retries": 0,
                 "file_path": "test_outputs.py"
             },
             {
                 "name": "test_outputs.py::test_unique_ips",
                 "status": "passed",
-                "duration": 0.0003046079982595984,
-                "start": 1783187279.7189586,
-                "stop": 1783187279.7193685,
+                "duration": 0.00037935599902994,
+                "start": 1783197723.2337713,
+                "stop": 1783197723.23429,
                 "retries": 0,
                 "file_path": "test_outputs.py"
             },
             {
                 "name": "test_outputs.py::test_top_path",
                 "status": "passed",
-                "duration": 0.0008118320001813117,
-                "start": 1783187279.719504,
-                "stop": 1783187279.7205803,
+                "duration": 0.0003411610014154576,
+                "start": 1783197723.2344813,
+                "stop": 1783197723.2349808,
                 "retries": 0,
                 "file_path": "test_outputs.py"
             }
